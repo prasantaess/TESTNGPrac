@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="30" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-07T15:51:27 IST" name="Suite" finished-at="2022-07-07T15:51:28 IST" duration-ms="319">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestNgGroup.GroupSanity()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" name="GroupSanity" class="testngprac.TestNgGroup"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestNgGroup.GroupRegression()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" name="GroupRegression" class="testngprac.TestNgGroup"/>
+      </group> <!-- Regression -->
+      <group name="Smome">
+        <method signature="TestNgGroup.GroupSmome()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" name="GroupSmome" class="testngprac.TestNgGroup"/>
+      </group> <!-- Smome -->
+    </groups>
+    <test started-at="2022-07-07T15:51:27 IST" name="Test" finished-at="2022-07-07T15:51:28 IST" duration-ms="319">
+      <class name="testngprac.TestNgPriority">
+        <test-method signature="Test3()[pri:-1, instance:testngprac.TestNgPriority@6c64cb25]" started-at="2022-07-07T15:51:27 IST" name="Test3" finished-at="2022-07-07T15:51:27 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test6()[pri:-100, instance:testngprac.TestNgPriority@6c64cb25]" started-at="2022-07-07T15:51:27 IST" name="Test6" finished-at="2022-07-07T15:51:27 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method signature="Test4()[pri:0, instance:testngprac.TestNgPriority@6c64cb25]" started-at="2022-07-07T15:51:27 IST" name="Test4" finished-at="2022-07-07T15:51:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test1()[pri:1, instance:testngprac.TestNgPriority@6c64cb25]" started-at="2022-07-07T15:51:27 IST" name="Test1" finished-at="2022-07-07T15:51:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test5()[pri:500, instance:testngprac.TestNgPriority@6c64cb25]" started-at="2022-07-07T15:51:27 IST" name="Test5" finished-at="2022-07-07T15:51:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test2()[pri:0, instance:testngprac.TestNgPriority@6c64cb25]" started-at="2022-07-07T15:51:27 IST" name="Test2" finished-at="2022-07-07T15:51:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- testngprac.TestNgPriority -->
+      <class name="testngprac.TestNGPracAnnotation">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="beforeSuit" finished-at="2022-07-07T15:51:27 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="beforeTest" finished-at="2022-07-07T15:51:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="BeforeClass" finished-at="2022-07-07T15:51:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="BeforeMethod" finished-at="2022-07-07T15:51:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="BeforeMethod" finished-at="2022-07-07T15:51:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="AnnotationPrac()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="AnnotationPrac" finished-at="2022-07-07T15:51:27 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnnotationPrac -->
+        <test-method signature="DataProvider(java.lang.String,java.lang.String)[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="DataProvider" data-provider="Dataprovider" finished-at="2022-07-07T15:51:27 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="AfterMethod" finished-at="2022-07-07T15:51:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="BeforeMethod" finished-at="2022-07-07T15:51:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="DataProvider(java.lang.String,java.lang.String)[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="DataProvider" data-provider="Dataprovider" finished-at="2022-07-07T15:51:27 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="AfterMethod" finished-at="2022-07-07T15:51:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="AfterMethod" finished-at="2022-07-07T15:51:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:27 IST" name="AfterClass" finished-at="2022-07-07T15:51:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:28 IST" name="AfterTest" finished-at="2022-07-07T15:51:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testngprac.TestNGPracAnnotation@245b4bdc]" started-at="2022-07-07T15:51:28 IST" name="AfterSuite" finished-at="2022-07-07T15:51:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- testngprac.TestNGPracAnnotation -->
+      <class name="testngprac.TestNgGroup">
+        <test-method signature="GroupRegression()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupRegression" finished-at="2022-07-07T15:51:27 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupRegression -->
+        <test-method signature="GroupSanity()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupSanity" finished-at="2022-07-07T15:51:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupSanity -->
+        <test-method signature="GroupSmome()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupSmome" finished-at="2022-07-07T15:51:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupSmome -->
+        <test-method signature="GroupalwaysRunTrue()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupalwaysRunTrue" finished-at="2022-07-07T15:51:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupalwaysRunTrue -->
+        <test-method signature="GroupalwaysRunfalse()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupalwaysRunfalse" finished-at="2022-07-07T15:51:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupalwaysRunfalse -->
+        <test-method signature="OptionalTest(java.lang.String)[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="OptionalTest" finished-at="2022-07-07T15:51:27 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http:://www.myntra.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OptionalTest -->
+        <test-method signature="GroupARandDM()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupARandDM" finished-at="2022-07-07T15:51:27 IST" depends-on-methods="testngprac.TestNgGroup.GroupalwaysRunfalse" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupARandDM -->
+        <test-method signature="Group9()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="Group9" finished-at="2022-07-07T15:51:27 IST" depends-on-methods="testngprac.TestNgGroup.GroupalwaysRunfalse" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group9 -->
+        <test-method signature="dependsOnMethodsGroup7()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="dependsOnMethodsGroup7" finished-at="2022-07-07T15:51:27 IST" depends-on-methods="testngprac.TestNgGroup.GroupRegression" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependsOnMethodsGroup7 -->
+        <test-method signature="GroupdependsOnGroupsSanity()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="GroupdependsOnGroupsSanity" depends-on-groups="Sanity" finished-at="2022-07-07T15:51:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GroupdependsOnGroupsSanity -->
+        <test-method signature="Group11()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="Group11" finished-at="2022-07-07T15:51:27 IST" depends-on-methods="testngprac.TestNgGroup.GroupdependsOnGroupsSanity" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Group11 -->
+        <test-method signature="expectedExceptions()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="expectedExceptions" finished-at="2022-07-07T15:51:27 IST" duration-ms="18" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at testngprac.TestNgGroup.expectedExceptions(TestNgGroup.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expectedExceptions -->
+        <test-method signature="parameter(java.lang.String,java.lang.String)[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="parameter" finished-at="2022-07-07T15:51:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.Gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameter -->
+        <test-method signature="timeoutsSes()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="timeoutsSes" finished-at="2022-07-07T15:51:27 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeoutsSes -->
+        <test-method signature="ThreadpoolSize()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="ThreadpoolSize" finished-at="2022-07-07T15:51:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThreadpoolSize -->
+        <test-method signature="ThreadpoolSize()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="ThreadpoolSize" finished-at="2022-07-07T15:51:28 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThreadpoolSize -->
+        <test-method signature="ThreadpoolSize()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="ThreadpoolSize" finished-at="2022-07-07T15:51:28 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThreadpoolSize -->
+        <test-method signature="ThreadpoolSize()[pri:0, instance:testngprac.TestNgGroup@1d9b7cce]" started-at="2022-07-07T15:51:27 IST" name="ThreadpoolSize" finished-at="2022-07-07T15:51:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThreadpoolSize -->
+      </class> <!-- testngprac.TestNgGroup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
