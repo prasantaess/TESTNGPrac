@@ -3,6 +3,7 @@
 <suite name="Suite">
 <listeners>
 <listener class-name="testngprac.ITestListenerTest"></listener>
+<listener class-name="Analyzer.Transform"></listener>
 </listeners>
   <test thread-count="5" name="Test" parallel="methods">
   <parameter name="Url" value="https://www.google.com"></parameter>

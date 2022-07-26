@@ -1,16 +1,19 @@
 package testngprac;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestNgPriority {
-  @Test (priority=1)
+  @Test (priority=1) 
   public void Test1() {
 	  System.out.println("This is test 1..");
+	  Assert.assertEquals(false, true);
   }
   
-  @Test(priority=0)
+  @Test(priority=0, retryAnalyzer = Analyzer.RetryAnalyzer.class)
   public void Test2() {
 	  System.out.println("This is test 2..");
+	  Assert.assertEquals(false, true);
   }
   
   @Test (priority=-1)
